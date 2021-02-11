@@ -130,6 +130,14 @@ disableHugoGeneratorInject = false
   # [params.commento]
   #   url = ""
 
+  # Utterances comments widget
+  # repo is your repo where utternaces app has permissions.
+  # issueTerm defaults to pathname
+  # For more information, check out https://utteranc.es/
+  # [params.utterances]
+  #   repo = ""
+  #   issueTerm = ""
+
   # Uncomment this if you want a portrait on your start page
   #
   # [params.portrait]
