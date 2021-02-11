@@ -41,7 +41,7 @@ body {
   }
 }
 
-h2,
+h2 :not(.home-subtitle),
 h3,
 h4,
 h5,
@@ -55,9 +55,17 @@ h1 {
   font-size: 2.625rem;
 }
 
+h1.home-title {
+  margin-bottom: 0;
+}
+
 h2 {
   font-size: 1.625rem;
   margin-top: 2.5em;
+}
+
+h2.home-subtitle {
+  margin-top: 0;
 }
 
 h3 {
