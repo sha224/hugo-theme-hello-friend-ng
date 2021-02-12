@@ -112,10 +112,23 @@ img {
   &.right {
     margin-left: auto;
   }
+
   &.circle {
     border-radius: 50%;
     max-width: 25%;
     margin: auto;
+  }
+
+  &.left-floated {
+    margin-right: auto;
+    float: left;
+    margin: 20px 20px 20px 0;
+  }
+
+  &.right-floated {
+    margin-left: auto;
+    float: right;
+    margin: 20px 0 20px 20px;
   }
 }
 
