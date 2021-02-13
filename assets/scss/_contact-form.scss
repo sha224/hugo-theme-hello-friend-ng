@@ -1,0 +1,50 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+
+  & label {
+    font-weight: 600;
+  }
+
+  & input[type=text], textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: $light-input-color;
+    border: none;
+
+    @media (prefers-color-scheme: dark) {
+      background: $dark-input-color;
+    }
+
+    &:focus {
+      background: $light-input-focus-color;
+
+      @media (prefers-color-scheme: dark) {
+        background: $dark-input-focus-color;
+      }
+    }
+  }
+
+  & input[type=submit] {
+    background: $light-submit-color;
+    padding: 15px;
+    font-weight: 600;
+    color: $light-submit-text-color;
+    border: none;
+    cursor: pointer;
+
+    @media (prefers-color-scheme: dark) {
+      background: $dark-submit-color;
+      color: $dark-submit-text-color;
+    }
+
+    &:hover {
+      background: $light-submit-hover-color;
+
+      @media (prefers-color-scheme: dark) {
+        background: $dark-submit-hover-color;
+      }
+    }
+  }
+}

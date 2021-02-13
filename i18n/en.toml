@@ -37,3 +37,16 @@ other = "{{ .Count }} Words"
 
 [lastModified]
 other = "Last updated"
+
+# shortcodes/contact-form.html
+[yourName]
+other = "Your name"
+
+[yourEmail]
+other = "Your email"
+
+[yourMessage]
+other = "Your message"
+
+[send]
+other = "Send"

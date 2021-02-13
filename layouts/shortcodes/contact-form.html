@@ -1,0 +1,15 @@
+{{ if .Get "formId" }}
+  <form class="contact-form" action="https://formspree.io/f/{{ .Get "formId" }}" method="POST">
+
+    <label for="name">{{ i18n "yourName" }}</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">{{ i18n "yourEmail" }}</label>
+    <input type="text" id="email" name="_replyto">
+
+    <label for="message">{{ i18n "yourMessage" }}</label>
+    <textarea id="message" name="message"></textarea>
+
+    <input type="submit" value="{{ i18n "send" }}">
+  </form>
+{{ end }}
